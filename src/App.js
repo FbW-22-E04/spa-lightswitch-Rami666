@@ -1,7 +1,8 @@
-export default function App() {
-    return (
-        <div>
-            <h1>Hello World</h1>
+import Room from "./components/Room";
+function App() {
+    return <div>
+        <Room />
         </div>
-    );
+    
 };
+ export default App;
